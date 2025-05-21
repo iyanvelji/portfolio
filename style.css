@@ -599,6 +599,86 @@ footer {
   margin: 0.25rem 0;
 }
 
+.skills-section {
+    margin-top: 2rem;
+  }
+  .group-title {
+    font-size: 1.75rem;
+    color: #4b0141;
+    margin: 1.5rem 0 1rem 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .subgroup-title {
+    font-size: 1.25rem;
+    color: #9f0163;
+    margin: 1rem 0 0.5rem 1rem;
+    letter-spacing: 0.5px;
+  }
+  .skill-group {
+    margin-bottom: 2rem;
+  }
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  .modal.show {
+    display: flex;
+  }
+
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 450px;
+    animation: fadeIn 0.3s ease-in-out;
+    z-index: 10000;
+  }
+
+  .modal-content .close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+
+  /* Remove default bullets and spacing */
+.award-associated {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* Style each item as a pill */
+.award-associated li {
+  background-color: #f0f0f0;      /* light gray pill */
+  color: #333;                    /* dark text */
+  padding: 0.25rem 0.75rem;       /* small top/bottom, larger left/right */
+  border-radius: 1rem;            /* fully rounded ends */
+  font-size: 0.875rem;            /* slightly smaller text */
+  font-weight: 500;
+}
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.8); }
+    to { opacity: 1; transform: scale(1); }
+  }
 /* Responsive Design */
 @media (max-width: 768px) {
     .courses-grid {
@@ -610,4 +690,5 @@ footer {
         width: 90%;
     }
 }
+
   

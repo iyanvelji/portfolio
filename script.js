@@ -26,3 +26,14 @@ tabs.forEach(tab => {
   });
 });
 
+document.querySelectorAll('.skill-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const modal = document.getElementById('skill-modal');
+      document.getElementById('modal-title').textContent = card.dataset.title;
+      document.getElementById('modal-desc').textContent = card.dataset.desc;
+      modal.classList.add('show');
+    });
+  });
+  document.querySelector('#skill-modal .close').addEventListener('click', () => {
+    document.getElementById('skill-modal').classList.remove('show');
+  });
