@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Iyan Velji Portfolio</title>
   <!-- Link to external CSS file -->
   <link rel="stylesheet" href="style.css">
-    <!-- Favicon link -->
-    <link rel="icon" href="images/iv.png" type="image/png">
+  <!-- Favicon link -->
+  <link rel="icon" href="images/iv.png" type="image/png">
 </head>
+
 <body>
   <header>
     <h1>Iyan Velji</h1>
@@ -25,381 +27,547 @@
   </nav>
 
 
-    <!-- Home Section -->
-    <section id="home" class="tab-content active">
-  <h2 class="heading2">Hi, welcome to my portfolio.</h2>
+  <!-- Home Section -->
+  <section id="home" class="tab-content active">
+    <h2 class="heading2">Hi, welcome to my portfolio.</h2>
 
-  <!-- Technical Skills -->
-  <div class="skills-section">
-    <h4 class="group-title">Technical Skills</h4>
-   
-    <div id="skill-modal" class="modal">
-    <div class="modal-content">
-      <span class="close">×</span>
-      <h3 id="modal-title"></h3>
-      <p id="modal-desc"></p>
-    </div>
-  </div>
+    <!-- Technical Skills -->
+    <div class="skills-section">
+      <h4 class="group-title">Technical Skills</h4>
 
-    <!-- Other Technical Skills -->
-    <div class="skill-group">
-   
+      <div id="skill-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">×</span>
+          <h3 id="modal-title"></h3>
+          <p id="modal-desc"></p>
+        </div>
+      </div>
+
+      <!-- Other Technical Skills -->
+      <div class="skill-group">
+
+        <div class="skills-grid">
+          <div class="skill-card" data-title="Active Directory"
+            data-desc="Proficient in Microsoft Active Directory after working at United Farmers of Alberta.">
+            <img src="images/activedirectory.png" alt="Active Directory" class="skill-icon">
+            <p>Active Directory</p>
+          </div>
+          <div class="skill-card" data-title="Big Data"
+            data-desc="Explored Big Data in COMP 4522: Database II at Mount Royal University.">
+            <img src="images/bigdata.webp" alt="Big Data" class="skill-icon">
+            <p>Big Data</p>
+          </div>
+          <div class="skill-card" data-title="Bubble" data-desc="Created a site using Bubble for personal use.">
+            <img src="images/bubble.jpg" alt="Bubble" class="skill-icon">
+            <p>Bubble</p>
+          </div>
+          <div class="skill-card" data-title="CSS3"
+            data-desc="Styled responsive layouts and animations in COMP 2511: Web I at Mount Royal University.">
+            <img src="images/css3.svg" alt="CSS" class="skill-icon">
+            <p>CSS</p>
+          </div>
+          <div class="skill-card" data-title="Cybersecurity"
+            data-desc="Learned cybersecurity fundamentals while obtaining the certification for Career Essentials in Cybersecurity by Microsoft and LinkedIn.">
+            <img src="images/cybersecurity.png" alt="Cybersecurity" class="skill-icon">
+            <p>Cybersecurity</p>
+          </div>
+          <div class="skill-card" data-title="Data Analysis"
+            data-desc="Learned data analysis fundamentals while obtaining the certification for Career Essentials in Data Analysis by Microsoft and LinkedIn.">
+            <img src="images/data analysis.png" alt="Data Analysis" class="skill-icon">
+            <p>Data Analysis</p>
+          </div>
+          <div class="skill-card" data-title="Databases"
+            data-desc="Worked with relational and non-relational databases at Mount Royal University.">
+            <img src="images/databases.png" alt="Databases" class="skill-icon">
+            <p>Databases</p>
+          </div>
+          <div class="skill-card" data-title="Distributed Databases"
+            data-desc="Studied distributed databases in COMP 4522: Database II at Mount Royal University.">
+            <img src="images/distributeddatabases.png" alt="Distributed Databases" class="skill-icon">
+            <p>Distributed Databases</p>
+          </div>
+          <div class="skill-card" data-title="Figma"
+            data-desc="Designed prototypes in COMP 3553: Human-Computer Interaction">
+            <img src="images/figma.png" alt="Figma" class="skill-icon">
+            <p>Figma</p>
+          </div>
+          <div class="skill-card" data-title="GCP"
+            data-desc="Deployed services on GCP in COMP 3512: Web II: Web Application Development.">
+            <img src="images/gcp.png" alt="Google Cloud Platform" class="skill-icon">
+            <p>GCP</p>
+          </div>
+          <div class="skill-card" data-title="Git"
+            data-desc="Managed version control using Git in multiple courses at Mount Royal University.">
+            <img src="images/git.png" alt="Git" class="skill-icon">
+            <p>Git</p>
+          </div>
+          <div class="skill-card" data-title="Hadoop"
+            data-desc="Learned about Hadoop in COMP 4522: Database II at Mount Royal University.">
+            <img src="images/hadoop.png" alt="Hadoop" class="skill-icon">
+            <p>Hadoop</p>
+          </div>
+          <div class="skill-card" data-title="HTML5"
+            data-desc="Built semantic HTML structures in COMP 2511: Web I at Mount Royal University.">
+            <img src="images/html5.png" alt="HTML" class="skill-icon">
+            <p>HTML</p>
+          </div>
+          <div class="skill-card" data-title="Java"
+            data-desc="Mastered Java object-oriented programming in COMP 1502: Programming II at Mount Royal University.">
+            <img src="images/java.png" alt="Java" class="skill-icon">
+            <p>Java</p>
+          </div>
+          <div class="skill-card" data-title="JavaScript"
+            data-desc="Implemented interactive features using JavaScript in COMP 2511: Web I at Mount Royal University.">
+            <img src="images/javascript.webp" alt="JavaScript" class="skill-icon">
+            <p>JavaScript</p>
+          </div>
+          <div class="skill-card" data-title="Linux"
+            data-desc="Proficient in Linux after taking COMP 3532: System Administration at Mount Royal University.">
+            <img src="images/linux.webp" alt="Linux" class="skill-icon">
+            <p>Linux</p>
+          </div>
+          <div class="skill-card" data-title="Microsoft Copilot"
+            data-desc="Learned about Microsoft Copilot while obtaining the certification for Career Essentials in Cybersecurity by Microsoft and LinkedIn.">
+            <img src="images/copilot.png" alt="Microsoft Copilot" class="skill-icon">
+            <p>Microsoft Copilot</p>
+          </div>
+          <div class="skill-card" data-title="Microsoft Office"
+            data-desc="Proficient in Word, Excel, PowerPoint, and Outlook after working at United Farmers of Alberta and studying at Mount Royal University.">
+            <img src="images/office.svg" alt="Microsoft Office" class="skill-icon">
+            <p>Microsoft Office</p>
+          </div>
+          <div class="skill-card" data-title="Microsoft Project"
+            data-desc="Utilized Microsoft Project in COMP 4543: Project Management & QA at Mount Royal University.">
+            <img src="images/project.jfif" alt="Microsoft Project" class="skill-icon">
+            <p>Microsoft Project</p>
+          </div>
+          <div class="skill-card" data-title="Microsoft SCCM"
+            data-desc="Proficient in Microsoft SCCM after working at United Farmers of Alberta.">
+            <img src="images/sccm.png" alt="Endpoint Configuration" class="skill-icon">
+            <p>Microsoft System Center Configuration Manager</p>
+          </div>
+          <div class="skill-card" data-title="Microsoft Teams"
+            data-desc="Proficient in Microsoft Teams and Teams meetings rooms after working at United Farmers of Alberta.">
+            <img src="images/teams.png" alt="Microsoft Teams" class="skill-icon">
+            <p>Microsoft Teams</p>
+          </div>
+          <div class="skill-card" data-title="MongoDB"
+            data-desc="Implemented NoSQL schemas in COMP 4522: Database II: Advanced Database at Mount Royal University.">
+            <img src="images/mongodb.png" alt="MongoDB" class="skill-icon">
+            <p>MongoDB</p>
+          </div>
+          <div class="skill-card" data-title="Neo4j"
+            data-desc="Obtained a certification as a Neo4j Certified Professional.">
+            <img src="images/neo4j.png" alt="Neo4j" class="skill-icon">
+            <p>Neo4j</p>
+          </div>
+          <div class="skill-card" data-title="NodeJS"
+            data-desc="Built server-side applications in COMP 3512: Web II at Mount Royal University.">
+            <img src="images/nodejs.png" alt="NodeJS" class="skill-icon">
+            <p>NodeJS</p>
+          </div>
+          <div class="skill-card" data-title="OOP"
+            data-desc="Mastered object-oriented design in COMP 1502: Programming II at Mount Royal University.">
+            <img src="images/oop.jpg" alt="OOP" class="skill-icon">
+            <p>OOP</p>
+          </div>
+          <div class="skill-card" data-title="Pandas"
+            data-desc="Worked with Pandas in Python in COMP 4522: Database II: Advanced Database at Mount Royal University.">
+            <img src="images/pandas.png" alt="Pandas" class="skill-icon">
+            <p>Pandas</p>
+          </div>
+          <div class="skill-card" data-title="PHP"
+            data-desc="Developed dynamic web pages in COMP 2511: Web I at Mount Royal University.">
+            <img src="images/php.png" alt="PHP" class="skill-icon">
+            <p>PHP</p>
+          </div>
+          <div class="skill-card" data-title="PowerShell"
+            data-desc="Automated scripts at UFA as an End User Support Co-op student.">
+            <img src="images/powershell.png" alt="PowerShell" class="skill-icon">
+            <p>PowerShell</p>
+          </div>
+          <div class="skill-card" data-title="Prompt Engineering"
+            data-desc="Crafted AI prompts in a prompt engineering course offered by IBM.">
+            <img src="images/promptengineering.png" alt="Prompt Engineering" class="skill-icon">
+            <p>Prompt Engineering</p>
+          </div>
+          <div class="skill-card" data-title="Python"
+            data-desc="Utilized Python in COMP 4522: Database II: Advanced Database at Mount Royal University.">
+            <img src="images/python.png" alt="Python" class="skill-icon">
+            <p>Python</p>
+          </div>
+          <div class="skill-card" data-title="Scikit-Learn"
+            data-desc="Utilized Scikit-Learn in COMP 4522: Database II: Advanced Database at Mount Royal University.">
+            <img src="images/scikitlearn.png" alt="Scikit-Learn" class="skill-icon">
+            <p>Scikit-Learn</p>
+          </div>
+          <div class="skill-card" data-title="SQL"
+            data-desc="Wrote queries in COMP 2521: Database I and COMP 4522: Database II: Advanced Database at Mount Royal University.">
+            <img src="images/sql.png" alt="SQL" class="skill-icon">
+            <p>SQL</p>
+          </div>
+          <div class="skill-card" data-title="SSMS"
+            data-desc="Proficient in Microsoft SSMS after volunteering at the Future Ready Initiative.">
+            <img src="images/mssql.png" alt="SQL Server Management Studio" class="skill-icon">
+            <p>SQL Server Management Studio</p>
+          </div>
+          <div class="skill-card" data-title="ServiceNow"
+            data-desc="Managed tickets at United Farmers of Alberta as an End User Support Co-op student.">
+            <img src="images/snow.png" alt="ServiceNow" class="skill-icon">
+            <p>ServiceNow</p>
+          </div>
+          <div class="skill-card" data-title="Tailwind CSS"
+            data-desc="Styled UIs using Tailwind in COMP 3512: Web II at Mount Royal University.">
+            <img src="images/tailwind.jpg" alt="Tailwind CSS" class="skill-icon">
+            <p>Tailwind CSS</p>
+          </div>
+          <div class="skill-card" data-title="Technical Documentation"
+            data-desc="Wrote technical documentation at United Farmers of Alberta as an End User Support Co-op student.">
+            <img src="images/documentation.webp" alt="Technical Documentation" class="skill-icon">
+            <p>Technical Documentation</p>
+          </div>
+          <div class="skill-card" data-title="Troubleshooting"
+            data-desc="Resolved over 1,000 tickets at United Farmers of Alberta as an End User Support Co-op student.">
+            <img src="images/troubleshooting.png" alt="Troubleshooting" class="skill-icon">
+            <p>Troubleshooting</p>
+          </div>
+          <div class="skill-card" data-title="Wireshark"
+            data-desc="Captured network traffic in COMP 3533: Network Infrastructure at Mount Royal University.">
+            <img src="images/wireshark.png" alt="Wireshark" class="skill-icon">
+            <p>Wireshark</p>
+          </div>
+          <div class="skill-card" data-title="WordPress" data-desc="Created multiple WordPress sites for personal use.">
+            <img src="images/wordpress.png" alt="WordPress" class="skill-icon">
+            <p>WordPress</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Business Skills -->
+      <h4 class="group-title">Business Skills</h4>
       <div class="skills-grid">
-        <!-- List all non-Microsoft skill cards here -->
-        <!-- HTML -->
-        <div class="skill-card" data-title="HTML5" data-desc="Built semantic HTML structures in COMP 2511: Web I at Mount Royal University."><img src="images/html5.png" alt="HTML" class="skill-icon"><p>HTML</p></div>
-        <div class="skill-card" data-title="CSS3" data-desc="Styled responsive layouts and animations in COMP 2511: Web I at Mount Royal University."><img src="images/css3.svg" alt="CSS" class="skill-icon"><p>CSS</p></div>
-        <div class="skill-card" data-title="JavaScript" data-desc="Implemented interactive features using JavaScript in COMP 2511: Web I at Mount Royal University."><img src="images/javascript.webp" alt="JavaScript" class="skill-icon"><p>JavaScript</p></div>
-        <div class="skill-card" data-title="Java" data-desc="Mastered Java object-oriented programming in COMP 1502: Programming II at Mount Royal University."><img src="images/java.png" alt="Java" class="skill-icon"><p>Java</p></div>
-        <div class="skill-card" data-title="NodeJS" data-desc="Built server-side applications in COMP 3512: Web II at Mount Royal University."><img src="images/nodejs.png" alt="NodeJS" class="skill-icon"><p>NodeJS</p></div>
-        <div class="skill-card" data-title="PHP"  data-desc="Developed dynamic web pages in COMP 2511: Web I at Mount Royal University."><img src="images/php.png" alt="PHP" class="skill-icon"><p>PHP</p></div>
-        <div class="skill-card" data-title="Python" data-desc="Utilized Python in COMP 4522: Database II: Advanced Database at Mount Royal University."><img src="images/python.png" alt="Python" class="skill-icon"><p>Python</p></div>
-        <div class="skill-card" data-title="PowerShell" data-desc="Automated scripts at UFA as an End User Support Co-op student."><img src="images/powershell.png" alt="PowerShell" class="skill-icon"><p>PowerShell</p></div>
-        <div class="skill-card" data-title="SQL" data-desc="Wrote queries in COMP 2521: Database I and COMP 4522: Database II: Advanced Database at Mount Royal University."><img src="images/sql.png" alt="SQL" class="skill-icon"><p>SQL</p></div>
-        <div class="skill-card" data-title="Figma" data-desc="Designed prototypes in COMP 3553: Human-Computer Interaction"><img src="images/figma.png" alt="Figma" class="skill-icon"><p>Figma</p></div>
-        <div class="skill-card" data-title="Big Data" data-desc="Explored Big Data in COMP 4522: Database II at Mount Royal University."><img src="images/bigdata.webp" alt="Big Data" class="skill-icon"><p>Big Data</p></div>
-        <div class="skill-card" data-title="Distributed Databases" data-desc="Studied distributed databases in COMP 4522: Database II at Mount Royal University."><img src="images/distributeddatabases.png" alt="Distributed Databases" class="skill-icon"><p>Distributed Databases</p></div>
-        <div class="skill-card" data-title="Google Cloud Platform" data-desc="Deployed services on GCP in COMP 3512: Web II: Web Application Development."><img src="images/gcp.png" alt="Google Cloud Platform" class="skill-icon"><p>GCP</p></div>
-        <!-- Microsoft Office -->
-        <div class="skill-card" data-title="Microsoft Office" data-desc="Proficient in Word, Excel, PowerPoint, and Outlook after working at United Farmers of Alberta and studying at Mount Royal University.">
-          <img src="images/office.svg" alt="Microsoft Office" class="skill-icon">
-          <p>Microsoft Office</p>
+        <div class="skills-grid">
+          <div class="skill-card" data-title="Accounting"
+            data-desc="Learned the fundamentals of accounting in ACCT 2121: Financial Accounting at Mount Royal University.">
+            <img src="images/accounting.png" alt="Accounting" class="skill-icon">
+            <p>Accounting</p>
+          </div>
+          <div class="skill-card" data-title="Corporate Social Responsibility"
+            data-desc="Learned CSR in MGMT 4402: Corporate Social Responsibility at Mount Royal University.">
+            <img src="images/csr.png" alt="CSR" class="skill-icon">
+            <p>Corporate Social Responsibility</p>
+          </div>
+          <div class="skill-card" data-title="Customer Service"
+            data-desc="Developed customer service skills while working at United Farmers of Alberta and Elections Canada.">
+            <img src="images/customerservice.png" alt="Customer Service" class="skill-icon">
+            <p>Customer Service</p>
+          </div>
+          <div class="skill-card" data-title="Marketing"
+            data-desc="Studied marketing in MKTG 2150: Introduction to Marketing at Mount Royal University.">
+            <img src="images/marketing.png" alt="Marketing" class="skill-icon">
+            <p>Marketing</p>
+          </div>
+          <div class="skill-card" data-title="Problem Solving"
+            data-desc="Solved complex problems at Mount Royal University and United Farmers of Alberta.">
+            <img src="images/problemsolving.png" alt="Problem Solving" class="skill-icon">
+            <p>Problem Solving</p>
+          </div>
+          <div class="skill-card" data-title="Public Speaking"
+            data-desc="Developed public speaking skills in SPCH 2001: Intro to Public Speaking at Mount Royal University.">
+            <img src="images/publicspeaking.png" alt="Public Speaking" class="skill-icon">
+            <p>Public Speaking</p>
+          </div>
+          <div class="skill-card" data-title="Teamwork"
+            data-desc="Collaborated on group projects in multiple courses at Mount Royal University and at United Farmers of Alberta.">
+            <img src="images/teamwork.jpg" alt="Teamwork" class="skill-icon">
+            <p>Teamwork</p>
+          </div>
+          <div class="skill-card" data-title="Written Communication"
+            data-desc="Developed business writing skills in MGMT 3210: Business Communication at Mount Royal University.">
+            <img src="images/writtencommunication.png" alt="Writing" class="skill-icon">
+            <p>Written Communication</p>
+          </div>
         </div>
-        <!-- Microsoft Teams -->
-        <div class="skill-card" data-title="Microsoft Teams" data-desc="Proficient in Microsoft Teams and Teams meetings rooms after working at United Farmers of Alberta.">
-          <img src="images/teams.png" alt="Microsoft Teams" class="skill-icon">
-          <p>Microsoft Teams</p>
+      </div>
+  </section>
+
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="tab-content">
+    <h1 class="heading1">Projects</h1>
+    <div class="projects-grid">
+      <!-- Starbucks Website Clone -->
+      <div class="project-card">
+        <h3>Starbucks Website Clone</h3>
+        <p>Built with HTML, CSS, and JavaScript.</p>
+        <div class="project-links">
+          <a href="https://ivresume.netlify.app/starbucks" target="_blank" rel="noopener noreferrer">Live Demo</a>
         </div>
-        <!-- Endpoint Configuration -->
-        <div class="skill-card" data-title="Microsoft SCCM" data-desc="Proficient in Microsoft SCCM after working at United Farmers of Alberta.">
-          <img src="images/sccm.png" alt="Endpoint Configuration" class="skill-icon">
-          <p>Microsoft System Center Configuration Manager</p>
+      </div>
+      <!-- Mental Health Site -->
+      <div class="project-card">
+        <h3>SETI and AI</h3>
+        <p>The impact of AI on the Search for Extraterrestrial Intelligence.</p>
+        <div class="project-links">
+          <a href="https://www.thereflector.ca/2024/12/12/how-ai-could-improve-seti-research/">Read Article</a>
         </div>
-        <!-- Active Directory -->
-        <div class="skill-card" data-title="Active Directory" data-desc="Proficient in Microsoft Active Directory after working at United Farmers of Alberta.">
-          <img src="images/activedirectory.png" alt="Active Directory" class="skill-icon">
-          <p>Active Directory</p>
+      </div>
+      <!-- Future of AI -->
+      <div class="project-card">
+        <h3>How AI could change the world</h3>
+        <p>If AI is developed responsibly, it might just prove to be a game changer for humanity, the world and beyond.
+        </p>
+        <div class="project-links">
+          <a href="https://www.thereflector.ca/2023/11/13/how-ai-could-change-the-world/">Read Article</a>
         </div>
-        <!-- SQL Server Management Studio -->
-        <div class="skill-card" data-title="SSMS" data-desc="Proficient in Microsoft SSMS after volunteering at the Future Ready Initiative.">
-          <img src="images/mssql.png" alt="SQL Server Management Studio" class="skill-icon">
-          <p>SQL Server Management Studio</p>
+      </div>
+      <!-- Toy Store -->
+      <div class="project-card">
+        <h3>Toy Store Demo</h3>
+        <p>A demo of an online toy store built with Java, showcasing interactive features.</p>
+        <div class="project-links">
+          <a href="https://www.youtube.com/watch?v=bBIF1056TMU" target="_blank" rel="noopener noreferrer">Watch Demo</a>
         </div>
-        <!-- Microsoft Project -->
-        <div class="skill-card" data-title="Microsoft Project" data-desc="Utilized Microsoft Project in COMP 4543: Project Management & QA at Mount Royal University.">
-          <img src="images/project.jfif" alt="Microsoft Project" class="skill-icon">
-          <p>Microsoft Project</p>
+      </div>
+      <!-- Task Manager -->
+      <div class="project-card">
+        <h3>Task Manager</h3>
+        <p>Developed with NodeJS for effective task tracking and management.</p>
+        <div class="project-links">
+          <a href="https://www.youtube.com/watch?v=dcDIXeKTCA4" target="_blank" rel="noopener noreferrer">Watch Demo</a>
         </div>
-        <div class="skill-card" data-title="Microsoft Copilot" data-desc="Learned about Microsoft Copilot while obtaining the certification for Career Essentials in Cybersecurity by Microsoft and LinkedIn.">
-          <img src="images/copilot.png" alt="Microsoft Copilot" class="skill-icon">
-          <p>Microsoft Copilot</p>
+      </div>
+
+      <!-- Basic Calculator -->
+      <div class="project-card">
+        <h3>Basic Calculator</h3>
+        <p>A simple calculator application implemented in Python.</p>
+        <div class="project-links">
+          <a href="https://www.youtube.com/watch?v=ju8J6riQZvM" target="_blank" rel="noopener noreferrer">Watch Demo</a>
         </div>
-        <div class="skill-card" data-title="Hadoop" data-desc="Learned about Hadoop in COMP 4522: Database II at Mount Royal University."><img src="images/hadoop.png" alt="Hadoop" class="skill-icon"><p>Hadoop</p></div>
-        <div class="skill-card" data-title="Neo4j" data-desc="Obtained a certification as a Neo4j Certified Professional."><img src="images/neo4j.png" alt="Neo4j" class="skill-icon"><p>Neo4j</p></div>
-        <div class="skill-card" data-title="MongoDB" data-desc="Implemented NoSQL schemas in COMP 4522: Database II: Advanced Database at Mount Royal University."><img src="images/mongodb.png" alt="MongoDB" class="skill-icon"><p>MongoDB</p></div>
-        <div class="skill-card" data-title="Git" data-desc="Managed version control using Git in multiple courses at Mount Royal University."><img src="images/git.png" alt="Git" class="skill-icon"><p>Git</p></div>
-        <div class="skill-card" data-title="Linux" data-desc="Proficient in Linux after taking COMP 3532: System Administration at Mount Royal University."><img src="images/linux.webp" alt="Linux" class="skill-icon"><p>Linux</p></div>
-        <div class="skill-card" data-title="Troubleshooting" data-desc="Resolved over 1,000 tickets at United Farmers of Alberta as an End User Support Co-op student."><img src="images/troubleshooting.png" alt="Troubleshooting" class="skill-icon"><p>Troubleshooting</p></div>
-        <div class="skill-card" data-title="Technical Documentation" data-desc="Wrote technical documentation at United Farmers of Alberta as an End User Support Co-op student."><img src="images/documentation.webp" alt="Technical Documentation" class="skill-icon"><p>Technical Documentation</p></div>
-        <div class="skill-card" data-title="Prompt Engineering" data-desc="Crafted AI prompts in a prompt engineering course offered by IBM."><img src="images/promptengineering.png" alt="Prompt Engineering" class="skill-icon"><p>Prompt Engineering</p></div>
-        <div class="skill-card" data-title="Databases" data-desc="Worked with relational and non-relational databases at Mount Royal University."><img src="images/databases.png" alt="Databases" class="skill-icon"><p>Databases</p></div>
-        <div class="skill-card" data-title="OOP" data-desc="Mastered object-oriented design in COMP 1502: Programming II at Mount Royal University."><img src="images/oop.jpg" alt="OOP" class="skill-icon"><p>OOP</p></div>
-        <div class="skill-card" data-title="Pandas" data-desc="Worked with Pandas in Python in COMP 4522: Database II: Advanced Database at Mount Royal University."><img src="images/pandas.png" alt="Pandas" class="skill-icon"><p>Pandas</p></div>
-        <div class="skill-card" data-title="Scikit-Learn" data-desc="Utilized Scikit-Learn in COMP 4522: Database II: Advanced Database at Mount Royal University."><img src="images/scikitlearn.png" alt="Scikit-Learn" class="skill-icon"><p>Scikit-Learn</p></div>
-        <div class="skill-card" data-title="Tailwind CSS" data-desc="Styled UIs using Tailwind in COMP 3512: Web II at Mount Royal University."><img src="images/tailwind.jpg" alt="Tailwind CSS" class="skill-icon"><p>Tailwind CSS</p></div>
-        <div class="skill-card" data-title="Wireshark" data-desc="Captured network traffic in COMP 3533: Network Infrastructure at Mount Royal University."><img src="images/wireshark.png" alt="Wireshark" class="skill-icon"><p>Wireshark</p></div>
-        <div class="skill-card" data-title="ServiceNow" data-desc="Managed tickets at United Farmers of Alberta as an End User Support Co-op student."><img src="images/snow.png" alt="ServiceNow" class="skill-icon"><p>ServiceNow</p></div>
-        <div class="skill-card" data-title="Cybersecurity" data-desc="Learned cybersecurity fundamentals while obtaining the certification for Career Essentials in Cybersecurity by Microsoft and LinkedIn."><img src="images/cybersecurity.png" alt="Cybersecurity" class="skill-icon"><p>Cybersecurity</p></div>
-        <div class="skill-card" data-title="Data Analysis" data-desc="Learned data analysis fundamentals while obtaining the certification for Career Essentials in Data Analysis by Microsoft and LinkedIn."><img src="images/data analysis.png" alt="Data Analysis" class="skill-icon"><p>Data Analysis</p></div>
-        <div class="skill-card" data-title="WordPress" data-desc="Created multiple WordPress sites for personal use."><img src="images/wordpress.png" alt="WordPress" class="skill-icon"><p>WordPress</p></div>
-        <div class="skill-card" data-title="Bubble" data-desc="Created a site using Bubble for personal use."><img src="images/bubble.jpg" alt="Bubble" class="skill-icon"><p>Bubble</p></div>
+      </div>
+      <!-- PowerShell Scripts -->
+      <div class="project-card">
+        <h3>PowerShell Scripts</h3>
+        <p>Automated various day-to-day tasks using PowerShell.</p>
+        <div class="project-links">
+          <a href="https://ivresume.netlify.app/scripts" target="_blank" rel="noopener noreferrer">View Scripts</a>
+        </div>
+      </div>
+      <!-- Unionized Employees Presentation -->
+      <div class="project-card">
+        <h3>Java Crossword Puzzle With Microservices</h3>
+        <p>A Java-based crossword puzzle leveraging microservices for puzzle generation, user management, and scoring.
+        </p>
+        <div class="project-links">
+          <a href="https://github.com/iv571/comp4635assignment2">GitHub Repo</a>
+        </div>
+      </div>
+      <!-- RISC vs CISC -->
+      <div class="project-card">
+        <h3>RISC vs CISC</h3>
+        <p>A writing project exploring CPU architectures and their differences.</p>
+        <div class="project-links">
+          <a href="https://ivresume.netlify.app/rvc.pdf" target="_blank" rel="noopener noreferrer">Read Paper</a>
+        </div>
       </div>
     </div>
+  </section>
 
-    <!-- Business Skills -->
-    <h4 class="group-title">Business Skills</h4>
-    <div class="skills-grid">
-      <div class="skill-card" data-title="Marketing" data-desc="Studied marketing in MKTG 2150: Introduction to Marketing at Mount Royal University."><img src="images/marketing.png" alt="Marketing" class="skill-icon"><p>Marketing</p></div>
-      <div class="skill-card" data-title="Accounting" data-desc="Learned the fundamentals of accounting in ACCT 2121: Financial Accounting at Mount Royal University."><img src="images/accounting.png" alt="Accounting" class="skill-icon"><p>Accounting</p></div>
-      <div class="skill-card" data-title="Corporate Social Responsibility" data-desc="Learned CSR in MGMT 4402: Corporate Social Responsibility at Mount Royal University."><img src="images/csr.png" alt="CSR" class="skill-icon"><p>Corporate Social Responsibility</p></div>
-      <div class="skill-card" data-title="Public Speaking" data-desc="Developed public speaking skills in SPCH 2001: Intro to Public Speaking at Mount Royal University."><img src="images/publicspeaking.png" alt="Public Speaking" class="skill-icon"><p>Public Speaking</p></div>
-      <div class="skill-card" data-title="Written Communication" data-desc="Developed business writing skills in MGMT 3210: Business Communication at Mount Royal University."><img src="images/writtencommunication.png" alt="Writing" class="skill-icon"><p>Written Communication</p></div>
-      <div class="skill-card" data-title="Problem Solving" data-desc="Solved complex problems at Mount Royal University and United Farmers of Alberta."><img src="images/problemsolving.png" alt="Problem Solving" class="skill-icon"><p>Problem Solving</p></div>
-      <div class="skill-card" data-title="Teamwork" data-desc="Collaborated on group projects in multiple courses at Mount Royal University and at United Farmers of Alberta."><img src="images/teamwork.jpg" alt="Teamwork" class="skill-icon"><p>Teamwork</p></div>
-            <div class="skill-card" data-title="Customer Service" data-desc="Developed customer service skills while working at United Farmers of Alberta and Elections Canada."><img src="images/customerservice.png" alt="Customer Service" class="skill-icon"><p>Customer Service</p></div>
-    </div>
-  </div>
-</section>
 
-    
-
-    <!-- Projects Section -->
-    <section id="projects" class="tab-content">
-        <h1 class="heading1">Projects</h1>
-        <div class="projects-grid">
-          <!-- Starbucks Website Clone -->
-          <div class="project-card">
-            <h3>Starbucks Website Clone</h3>
-            <p>Built with HTML, CSS, and JavaScript.</p>
-            <div class="project-links">
-              <a href="https://ivresume.netlify.app/starbucks" target="_blank" rel="noopener noreferrer">Live Demo</a>
-            </div>
-          </div>
-          <!-- Mental Health Site -->
-          <div class="project-card">
-            <h3>SETI and AI</h3>
-            <p>The impact of AI on the Search for Extraterrestrial Intelligence.</p>
-            <div class="project-links">
-              <a href="https://www.thereflector.ca/2024/12/12/how-ai-could-improve-seti-research/">Read Article</a>
-            </div>
-          </div>
-          <!-- Future of AI -->
-          <div class="project-card">
-            <h3>How AI could change the world</h3>
-            <p>If AI is developed responsibly, it might just prove to be a game changer for humanity, the world and beyond.</p>
-            <div class="project-links">
-              <a href="https://www.thereflector.ca/2023/11/13/how-ai-could-change-the-world/">Read Article</a>
-            </div>
-          </div>
-          <!-- Toy Store -->
-          <div class="project-card">
-            <h3>Toy Store Demo</h3>
-            <p>A demo of an online toy store built with Java, showcasing interactive features.</p>
-            <div class="project-links">
-              <a href="https://www.youtube.com/watch?v=bBIF1056TMU" target="_blank" rel="noopener noreferrer">Watch Demo</a>
-            </div>
-          </div>
-          <!-- Task Manager -->
-          <div class="project-card">
-            <h3>Task Manager</h3>
-            <p>Developed with NodeJS for effective task tracking and management.</p>
-            <div class="project-links">
-              <a href="https://www.youtube.com/watch?v=dcDIXeKTCA4" target="_blank" rel="noopener noreferrer">Watch Demo</a>
-            </div>
-          </div>
-          
-          <!-- Basic Calculator -->
-          <div class="project-card">
-            <h3>Basic Calculator</h3>
-            <p>A simple calculator application implemented in Python.</p>
-            <div class="project-links">
-              <a href="https://www.youtube.com/watch?v=ju8J6riQZvM" target="_blank" rel="noopener noreferrer">Watch Demo</a>
-            </div>
-          </div>
-          <!-- PowerShell Scripts -->
-          <div class="project-card">
-            <h3>PowerShell Scripts</h3>
-            <p>Automated various day-to-day tasks using PowerShell.</p>
-            <div class="project-links">
-              <a href="https://ivresume.netlify.app/scripts" target="_blank" rel="noopener noreferrer">View Scripts</a>
-            </div>
-          </div>
-          <!-- Unionized Employees Presentation -->
-          <div class="project-card">
-            <h3>Java Crossword Puzzle With Microservices</h3>
-            <p>A Java-based crossword puzzle leveraging microservices for puzzle generation, user management, and scoring.</p>
-            <div class="project-links">
-              <a href="https://github.com/iv571/comp4635assignment2">GitHub Repo</a>
-            </div>
-          </div>
-          <!-- RISC vs CISC -->
-          <div class="project-card">
-            <h3>RISC vs CISC</h3>
-            <p>A writing project exploring CPU architectures and their differences.</p>
-            <div class="project-links">
-              <a href="https://ivresume.netlify.app/rvc.pdf" target="_blank" rel="noopener noreferrer">Read Paper</a>
-            </div>
-          </div>
-        </div>
-    </section>
- 
-
-    <!-- Education Section -->
-<section id="education" class="tab-content">
+  <!-- Education Section -->
+  <section id="education" class="tab-content">
     <div class="education-header">
-        <h1 class="heading1">Education</h1>
-        <div class="university-info">
-            <img src="images/mountroyal.png" alt="Mount Royal University Logo" class="mru-logo">
-            <h3 class="heading3">Mount Royal University</h3>
-        </div>
-        <p class="description">
-            Bachelor of Computer Information Systems (Sept 2020 - Apr 2025)
-        </p>
+      <h1 class="heading1">Education</h1>
+      <div class="university-info">
+        <img src="images/mountroyal.png" alt="Mount Royal University Logo" class="mru-logo">
+        <h3 class="heading3">Mount Royal University</h3>
+      </div>
+      <p class="description">
+        Bachelor of Computer Information Systems (Sept 2020 - Apr 2025)
+      </p>
     </div>
 
     <h2 class="heading2">Courses Taken</h2>
 
     <!-- Courses Grid -->
     <div class="courses-grid">
-        <!-- Computing Column -->
-        <div class="course-column">
-            <h3 class="column-title">Computing</h3>
-            <ul>
-                <li><strong>COMP 1501:</strong> Programming I: Intro to Problem Solving</li>
-                <li><strong>COMP 1502:</strong> Programming II: Object-Oriented Programming</li>
-                <li><strong>COMP 2503:</strong> Programming III: Data Structures</li>
-                <li><strong>COMP 2511:</strong> Web I: Client Development</li>
-                <li><strong>COMP 2521:</strong> Database I: Modelling & Query</li>
-                <li><strong>COMP 2531:</strong> Architecture & Operating Systems</li>
-                <li><strong>COMP 2541:</strong> Systems Analysis</li>
-                <li><strong>COMP 3309:</strong> IT and Society</li>
-                <li><strong>COMP 3532:</strong> System Administration</li>
-                <li><strong>COMP 3533:</strong> Network Infrastructure</li>
-                <li><strong>COMP 3512:</strong> Web II: Web Application Development</li>
-                <li><strong>COMP 4522:</strong> Database II: Advanced Database</li>
-                <li><strong>COMP 3553:</strong> Human-Computer Interaction</li>
-                <li><strong>COMP 4543:</strong> Project Management & QA</li>
-                <li><strong>COMP 5590:</strong> Senior Project</li>
-                <li><strong>COMP 4635:</strong> Distributed Systems</li>
-            </ul>
-        </div>
-
-        <!-- Business Column -->
-        <div class="course-column">
-            <h3 class="column-title">Business</h3>
-            <ul>
-                <li><strong>MKTG 2150:</strong> Introduction to Marketing</li>
-                <li><strong>MGMT 2130:</strong> Management Principles & Practices</li>
-                <li><strong>MGMT 3210:</strong> Business Communication</li>
-                <li><strong>HRES 2170:</strong> Intro to Human Resources</li>
-                <li><strong>ACCT 2121:</strong> Financial Accounting</li>
-                <li><strong>MKTG 3150:</strong> The Science of Persuasion</li>
-                <li><strong>MKTG 3258:</strong> Evidence-Based Marketing</li>
-                <li><strong>MGMT 4402:</strong> Corporate Social Responsibility</li>
-                <li><strong>ENTR 3305:</strong> The Art of the Pitch</li>
-                <li><strong>MGMT 3230:</strong> Business Law</li>
-                <li><strong>MGMT 3276:</strong> Organizational Behaviour</li>
-                <li><strong>INBU 3301:</strong> Global Business Environment</li>
-            </ul>
-        </div>
-
-        <!-- General Education Column -->
-        <div class="course-column">
-            <h3 class="column-title">General Education</h3>
-            <ul>
-                <li><strong>GNED 1401:</strong> Writing for Academic Success</li>
-                <li><strong>MATH 1505:</strong> Puzzling Adventures in Math</li>
-                <li><strong>GNED 1304:</strong> Communities and Societies</li>
-                <li><strong>ANTH 1103:</strong> Intro to Cultural Anthropology</li>
-                <li><strong>GNED 1101:</strong> Science & Mathematical Literacy</li>
-                <li><strong>GNED 1202:</strong> Texts and Ideas</li>
-                <li><strong>SPCH 2001:</strong> Intro to Public Speaking</li>
-                <li><strong>ASTR 1303:</strong> Stars, Galaxies, and Cosmology</li>
-                <li><strong>ANTH 1101:</strong> Primatology & Human Evolution</li>
-                <li><strong>COMM 2500:</strong> Intro to Communication Studies</li>
-                <li><strong>UGST 1001:</strong> Effective Learning</li>
-                <li><strong>UGST 1002:</strong> Change, Challenge and Choice</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-    <section id="experience" class="tab-content">
-        <h1 class="heading1">Experience</h1>
-
-         <!-- Experience Card 1: FRI, OJCMS Accounts Administrator -->
-         <div class="experience-card">
-          <h3>Future Ready Initiative</h3>
-          <p class="position"><strong>OJCMS Accounts Administrator</strong> (Nov 2024 - Present)</p>
-          <h4>Description:</h4>
-          <ul>
-            <li>Facilitate volunteer onboarding by creating and managing new user accounts</li>
-            <li>Perform data cleaning and data migration with MSSQL</li>
-            <li>Penetration tested the OJCMS training environment</li>
-          </ul>
-          <h4>Skills Used:</h4>
-          <p>OJCMS, Microsoft Excel, Microsoft Outlook, Microsoft Teams, Microsoft SQL Server Management Studio</p>
-        </div>
-
-         <!-- Experience Card 2: Elections Canada, Information Officer -->
-         <div class="experience-card">
-          <h3>Elections Canada</h3>
-          <p class="position"><strong>Information Officer</strong> (April 2025)</p>
-          <h4>Description:</h4>
-          <ul>
-            <li>Greeted voters and directed them to the correct voting station</li>
-            <li>Helped with the setup and take down of the polling place</li>
-          </ul>
-          <h4>Skills Used:</h4>
-          <p>Customer Service</p>
-        </div>
-      
-        <!-- Experience Card 3: UFA End User Support Co-op Student -->
-        <div class="experience-card">
-          <h3>United Farmers of Alberta Co-operative Limited</h3>
-          <p class="position"><strong>End User Support Co-op Student</strong> (May 2022 - Dec 2022)</p>
-          <h4>Description:</h4>
-          <ul>
-            <li>Successfully resolved over 1000 tickets in ServiceNow</li>
-            <li>Replaced over 300 computers as part of an Evergreen Project</li>
-            <li>Automated day-to-day tasks using PowerShell</li>
-            <li>Imaged all computers in stock</li>
-            <li>Updated computers appearing on the security vulnerability report</li>
-            <li>Provided remote desktop support such as software installation and troubleshooting</li>
-            <li>Significantly contributed to the configuration and deployment of 7 self-service kiosk laptops currently in production at UFA petroleum agencies</li>
-            <li>Managed Microsoft Teams Rooms and provided technical support during town hall meetings</li>
-            <li>Configured Honeywell Mobile Barcode Scanners and OptiSigns digital signage</li>
-            <li>Created technical documentation about software, hardware, and company processes</li>
-          </ul>
-          <h4>Skills Used:</h4>
-          <p>SCCM, Active Directory, Microsoft Teams, ServiceNow, MPOS, Moneris Pin Pads, Microsoft Office, PowerShell, PrinterLogic</p>
-        </div>
-      
-       
-      
-     
-      </section>
-
-      <!-- Awards Section -->
-<section id="awards" class="tab-content">
-  <h1 class="heading1">Awards</h1>
-  <div class="awards-grid">
-
-    <!-- Award Card: Jason Lang Scholarship 1 -->
-    <div class="award-card">
-      <div class="award-header">
-        <!-- Example icon or logo. Replace path if you have a Gov of Alberta image -->
-        <img src="images/gov-alberta.png" alt="Government of Alberta" class="award-logo">
-        <h3>Jason Lang Scholarship</h3>
+      <!-- Computing Column -->
+      <div class="course-column">
+        <h3 class="column-title">Computing</h3>
+        <ul>
+          <li><strong>COMP 1501:</strong> Programming I: Intro to Problem Solving</li>
+          <li><strong>COMP 1502:</strong> Programming II: Object-Oriented Programming</li>
+          <li><strong>COMP 2503:</strong> Programming III: Data Structures</li>
+          <li><strong>COMP 2511:</strong> Web I: Client Development</li>
+          <li><strong>COMP 2521:</strong> Database I: Modelling & Query</li>
+          <li><strong>COMP 2531:</strong> Architecture & Operating Systems</li>
+          <li><strong>COMP 2541:</strong> Systems Analysis</li>
+          <li><strong>COMP 3309:</strong> IT and Society</li>
+          <li><strong>COMP 3532:</strong> System Administration</li>
+          <li><strong>COMP 3533:</strong> Network Infrastructure</li>
+          <li><strong>COMP 3512:</strong> Web II: Web Application Development</li>
+          <li><strong>COMP 4522:</strong> Database II: Advanced Database</li>
+          <li><strong>COMP 3553:</strong> Human-Computer Interaction</li>
+          <li><strong>COMP 4543:</strong> Project Management & QA</li>
+          <li><strong>COMP 5590:</strong> Senior Project</li>
+          <li><strong>COMP 4635:</strong> Distributed Systems</li>
+        </ul>
       </div>
-      <p class="award-issuer">Issued by Government of Alberta · Nov 2024</p>
 
-    </div>
-
-    <!-- Award Card: Dean's Honour Roll (Jan 2024) -->
-    <div class="award-card">
-      <div class="award-header">
-        <img src="images/mountroyal.png" alt="Mount Royal University" class="award-logo">
-        <h3>Dean's Honour Roll</h3>
+      <!-- Business Column -->
+      <div class="course-column">
+        <h3 class="column-title">Business</h3>
+        <ul>
+          <li><strong>MKTG 2150:</strong> Introduction to Marketing</li>
+          <li><strong>MGMT 2130:</strong> Management Principles & Practices</li>
+          <li><strong>MGMT 3210:</strong> Business Communication</li>
+          <li><strong>HRES 2170:</strong> Intro to Human Resources</li>
+          <li><strong>ACCT 2121:</strong> Financial Accounting</li>
+          <li><strong>MKTG 3150:</strong> The Science of Persuasion</li>
+          <li><strong>MKTG 3258:</strong> Evidence-Based Marketing</li>
+          <li><strong>MGMT 4402:</strong> Corporate Social Responsibility</li>
+          <li><strong>ENTR 3305:</strong> The Art of the Pitch</li>
+          <li><strong>MGMT 3230:</strong> Business Law</li>
+          <li><strong>MGMT 3276:</strong> Organizational Behaviour</li>
+          <li><strong>INBU 3301:</strong> Global Business Environment</li>
+        </ul>
       </div>
-      <p class="award-issuer">Issued by Mount Royal University · Jan 2024</p>
 
-    </div>
-
-    <!-- Award Card: President’s Honour Roll (Jan 2024) -->
-    <div class="award-card">
-      <div class="award-header">
-        <img src="images/mountroyal.png" alt="Mount Royal University" class="award-logo">
-        <h3>President’s Honour Roll</h3>
+      <!-- General Education Column -->
+      <div class="course-column">
+        <h3 class="column-title">General Education</h3>
+        <ul>
+          <li><strong>GNED 1401:</strong> Writing for Academic Success</li>
+          <li><strong>MATH 1505:</strong> Puzzling Adventures in Math</li>
+          <li><strong>GNED 1304:</strong> Communities and Societies</li>
+          <li><strong>ANTH 1103:</strong> Intro to Cultural Anthropology</li>
+          <li><strong>GNED 1101:</strong> Science & Mathematical Literacy</li>
+          <li><strong>GNED 1202:</strong> Texts and Ideas</li>
+          <li><strong>SPCH 2001:</strong> Intro to Public Speaking</li>
+          <li><strong>ASTR 1303:</strong> Stars, Galaxies, and Cosmology</li>
+          <li><strong>ANTH 1101:</strong> Primatology & Human Evolution</li>
+          <li><strong>COMM 2500:</strong> Intro to Communication Studies</li>
+          <li><strong>UGST 1001:</strong> Effective Learning</li>
+          <li><strong>UGST 1002:</strong> Change, Challenge and Choice</li>
+        </ul>
       </div>
-      <p class="award-issuer">Issued by Mount Royal University · Jan 2024</p>
+    </div>
+  </section>
 
+  <section id="experience" class="tab-content">
+    <h1 class="heading1">Experience</h1>
+
+    <!-- Experience Card 1: FRI, OJCMS Accounts Administrator -->
+    <div class="experience-card">
+      <h3>Future Ready Initiative</h3>
+      <p class="position"><strong>OJCMS Accounts Administrator</strong> (Nov 2024 - Present)</p>
+      <h4>Description:</h4>
+      <ul>
+        <li>Facilitate volunteer onboarding by creating and managing new user accounts</li>
+        <li>Perform data cleaning and data migration with MSSQL</li>
+        <li>Penetration tested the OJCMS training environment to improve security</li>
+      </ul>
+      <h4>Skills Used:</h4>
+      <p>OJCMS, Microsoft Excel, Microsoft Outlook, Microsoft Teams, Microsoft SQL Server Management Studio</p>
     </div>
 
-    <!-- Award Card: Dean's Honour Roll (Jun 2023) -->
-    <div class="award-card">
-      <div class="award-header">
-        <img src="images/mountroyal.png" alt="Mount Royal University" class="award-logo">
-        <h3>Dean's Honour Roll</h3>
+    <!-- Experience Card 2: Elections Canada, Information Officer -->
+    <div class="experience-card">
+      <h3>Elections Canada</h3>
+      <p class="position"><strong>Information Officer</strong> (April 2025)</p>
+      <h4>Description:</h4>
+      <ul>
+        <li>Greeted voters and directed them to the correct voting station enhancing the voting experience</li>
+        <li>Helped with the setup and take down of the polling place</li>
+      </ul>
+      <h4>Skills Used:</h4>
+      <p>Customer Service</p>
+    </div>
+
+    <!-- Experience Card 3: UFA End User Support Co-op Student -->
+    <div class="experience-card">
+      <h3>United Farmers of Alberta Co-operative Limited</h3>
+      <p class="position"><strong>End User Support Co-op Student</strong> (May 2022 - Dec 2022)</p>
+      <h4>Description:</h4>
+      <ul>
+        <li>Successfully resolved over 1000 tickets in ServiceNow</li>
+        <li>Replaced over 300 computers as part of an Evergreen Project</li>
+        <li>Automated day-to-day tasks using PowerShell increasing productivity</li>
+        <li>Imaged all computers in stock increasing the supply of available computers</li>
+        <li>Updated computers appearing on the security vulnerability report helping secure the organization</li>
+        <li>Provided remote desktop support such as software installation and troubleshooting</li>
+        <li>Significantly contributed to the configuration and deployment of 7 self-service kiosk laptops currently in
+          production at UFA petroleum agencies</li>
+        <li>Troubleshooted Microsoft Teams Rooms and provided technical support during town hall meetings</li>
+        <li>Configured Honeywell Mobile Barcode Scanners and OptiSigns digital signage</li>
+        <li>Created technical documentation about software, hardware, and company processes</li>
+        <li>Utilized Active Directory and Microsoft System Center Configuration Manager to onboard and offboard employees</li>
+        <li>Provided support for Modern Point of Sale systems helping farm stores and petroleum agencies run smoothly</li>
+        <li>Troubleshooted printers using PrinterLogic and maintained printers</li>
+        <li>Maintained the computer lab and managed the stock room inventory in ServiceNow</li>
+      </ul>
+      <h4>Skills Used:</h4>
+      <p>SCCM, Active Directory, Microsoft Teams, ServiceNow, MPOS, Moneris Pin Pads, Microsoft Office, PowerShell,
+        PrinterLogic</p>
+    </div>
+
+
+
+
+  </section>
+
+  <!-- Awards Section -->
+  <section id="awards" class="tab-content">
+    <h1 class="heading1">Awards</h1>
+    <div class="awards-grid">
+
+      <!-- Award Card: Jason Lang Scholarship 1 -->
+      <div class="award-card">
+        <div class="award-header">
+          <!-- Example icon or logo. Replace path if you have a Gov of Alberta image -->
+          <img src="images/gov-alberta.png" alt="Government of Alberta" class="award-logo">
+          <h3>Jason Lang Scholarship</h3>
+        </div>
+        <p class="award-issuer">Issued by Government of Alberta · Nov 2024</p>
+
       </div>
-      <p class="award-issuer">Issued by Mount Royal University · Jun 2023</p>
 
-    </div>
+      <!-- Award Card: Dean's Honour Roll (Jan 2024) -->
+      <div class="award-card">
+        <div class="award-header">
+          <img src="images/mountroyal.png" alt="Mount Royal University" class="award-logo">
+          <h3>Dean's Honour Roll</h3>
+        </div>
+        <p class="award-issuer">Issued by Mount Royal University · Jan 2024</p>
 
-  </div> <!-- .awards-grid -->
-</section>
+      </div>
 
-<!-- Certifications Section -->
+      <!-- Award Card: President’s Honour Roll (Jan 2024) -->
+      <div class="award-card">
+        <div class="award-header">
+          <img src="images/mountroyal.png" alt="Mount Royal University" class="award-logo">
+          <h3>President’s Honour Roll</h3>
+        </div>
+        <p class="award-issuer">Issued by Mount Royal University · Jan 2024</p>
+
+      </div>
+
+      <!-- Award Card: Dean's Honour Roll (Jun 2023) -->
+      <div class="award-card">
+        <div class="award-header">
+          <img src="images/mountroyal.png" alt="Mount Royal University" class="award-logo">
+          <h3>Dean's Honour Roll</h3>
+        </div>
+        <p class="award-issuer">Issued by Mount Royal University · Jun 2023</p>
+
+      </div>
+
+    </div> <!-- .awards-grid -->
+  </section>
+
+  <!-- Certifications Section -->
   <section id="certifications" class="tab-content">
     <h1 class="heading1">Certifications</h1>
     <div class="awards-grid">
@@ -415,7 +583,7 @@
           <li>Cybersecurity Fundamentals</li>
           <li>Microsoft Security Copilot</li>
         </ul>
-        
+
       </div>
 
       <!-- Certification 2 -->
@@ -429,7 +597,7 @@
           <li>Data Analysis</li>
           <li>Data Visualization Principles</li>
         </ul>
-        
+
       </div>
     </div>
   </section>
@@ -443,4 +611,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
