@@ -259,7 +259,7 @@ p {
 
 .teaser-card p {
   font-size: 0.9rem;
-  color: #ffffff;
+  color: var(--text-primary);
   margin-bottom: var(--spacing-unit);
 }
 
@@ -272,7 +272,7 @@ p {
 
 .associated-list li {
   font-size: 0.85rem;
-  color: #ffffff;
+  color: var(--text-primary);
   margin-bottom: calc(var(--spacing-unit) / 2);
   padding-left: calc(var(--spacing-unit) / 2);
   position: relative;
@@ -823,7 +823,7 @@ font-weight: bold;
 
 .award-issuer {
   font-size: 0.95rem;
-  color: var(--text-light);
+  color: var(--text-primary);
   margin: 0;
 }
 
@@ -931,7 +931,7 @@ font-weight: bold;
 
 .media-issuer {
   font-size: 0.9rem;
-  color: var(--text-light);
+  color: var(--text-primary);
   margin-top: calc(var(--spacing-unit) * 1);
 }
 
