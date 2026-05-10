@@ -553,6 +553,14 @@ text-transform: uppercase;
 letter-spacing: 0.5px;
 }
 
+.text-light {
+  color: var(--text-light)  !important;
+}
+
+.secondary-accent {
+  color: var(--secondary-accent)  !important;
+}
+
 .course-column ul {
 list-style-type: none;
 padding: 0;
